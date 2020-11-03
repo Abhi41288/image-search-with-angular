@@ -11,7 +11,7 @@ import { NgForm } from '@angular/forms';
 export class ImageListComponent implements OnInit {
 
   images: any;
-
+  searchQuery: string;
   imagefound: boolean = false;
   searching: boolean = false;
   constructor( private iservice: ImageService ) { }
