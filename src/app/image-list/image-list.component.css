@@ -1,0 +1,19 @@
+.image-card{
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+ .image-grid{
+   display: flex;
+    /* position: relative; */
+    align-items: center;
+    justify-content: center;
+} 
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+.form-field{
+    width: 80%;
+}
